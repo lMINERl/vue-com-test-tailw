@@ -8,6 +8,12 @@
   </div>
 </template>
 
+<script lang="ts">
+import Vue from "vue";
+import "@/styles/compiled.css";
+export default Vue.extend({});
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -15,6 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  /* @apply "mr-5" ml-5 */
 }
 
 #nav {
