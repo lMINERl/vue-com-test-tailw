@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import "@/styles/compiled.css";
+
 export default Vue.extend({});
 </script>
 

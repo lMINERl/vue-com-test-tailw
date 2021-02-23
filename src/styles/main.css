@@ -2,7 +2,6 @@
 @import url("../../node_modules/tailwindcss/dist/base.css");
 @import url("../../node_modules/tailwindcss/dist/components.css");
 @import url("../../node_modules/tailwindcss/dist/utilities.css");
-
 @import url("./vendors/_tailwindcss.css");
 
 /* abstracts */

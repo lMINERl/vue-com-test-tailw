@@ -1,5 +1,6 @@
 module.exports = {
   tailwind: {},
   prefixer: {},
-  plugins: [require("postcss-import")]
+  // prefix: "tw-",
+  plugins: [require("tailwindcss")]
 };
