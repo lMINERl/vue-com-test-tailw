@@ -1,6 +1,6 @@
 module.exports = {
-  tailwind: {},
-  prefixer: {},
-  // prefix: "tw-",
-  plugins: [require("tailwindcss")]
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {}
+  }
 };

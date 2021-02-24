@@ -1,8 +1,7 @@
 /* vendors */
-@import url("../../node_modules/tailwindcss/dist/base.css");
-@import url("../../node_modules/tailwindcss/dist/components.css");
-@import url("../../node_modules/tailwindcss/dist/utilities.css");
-@import url("./vendors/_tailwindcss.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* abstracts */
 @import url("./abstracts/_functions.css");
@@ -14,10 +13,13 @@
 @import url("./base/_typography.css");
 
 /* components */
+@import url("./components/_common.css");
 @import url("./components/_buttons.css");
+@import url("./components/_drawer.css");
 
 /* layout */
 @import url("./layout/_table.css");
+@import url("./layout/_app.css");
 
 /* pages */
 @import url("./pages/_home.css");

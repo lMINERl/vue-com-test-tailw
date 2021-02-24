@@ -25,5 +25,11 @@
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],
-  "exclude": ["node_modules", "shims-tsx.d.ts", "shims-vue.d.ts", "tsconfig.json"]
+  "exclude": [
+    "node_modules",
+    "shims-tsx.d.ts",
+    "shims-vue.d.ts",
+    "tsconfig.json",
+    "postcss.config.js"
+  ]
 }
